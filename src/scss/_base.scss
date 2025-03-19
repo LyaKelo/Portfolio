@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+:root {
+  --pure-white: rgba(255, 255, 255, 1)
+  --links: rgba(96, 83, 173, 1);
+  --main-dark-color:rgba(66, 62, 96, 1);
+  --title-font-family: Roboto, sans-serif;
+}
