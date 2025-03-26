@@ -6,8 +6,8 @@
   border: 1px solid var(--Unclicked-unhovered, #cfc9d9);
   box-shadow: 5px 5px 4px 0px rgba(162, 147, 172, 0.3);
   backdrop-filter: blur(2px);
-  margin: 0px 35px 0px 35px;
-  positio
+  // margin: 0px 35px 0px 35px;
+  width: 95%;
 }
 .header-left-elements {
   display: flex;
@@ -18,4 +18,10 @@
   display: flex;
   gap: 25px;
   align-items: center;
+}
+
+.header-teste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
