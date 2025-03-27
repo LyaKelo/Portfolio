@@ -2,7 +2,25 @@
   width: 100%;
   margin-top: 30px;
 }
+.homepage-section-title {
+  font-family: Julius Sans One;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
 
 .homepage-profile-pic img {
   width: 100%;
+}
+.homepage-portfolio-card {
+  display: flex;
+  height: 161px;
+  padding: 80px 136px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(78, 74, 103, 0.26);
+  color: rgba(96, 83, 173, 1);
+}
+
+.homepage-portfolio-card :nth-child(1) {
 }
