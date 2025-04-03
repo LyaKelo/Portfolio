@@ -1,0 +1,20 @@
+.portfolio-card {
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+.portfolio-card-image img {
+  min-width: 100%;
+  max-height: 400px;
+  min-height: 300px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.portfolio-card-middle-row {
+  max-width: 100%;
+}
+.portfolio-card-description {
+  display: flex;
+  mid-width: 100%;
+}
