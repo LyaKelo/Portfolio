@@ -3,6 +3,8 @@
   margin-bottom: 400px;
 }
 
+
+
 .portfolio-card-image img {
   min-width: 100%;
   max-height: 400px;
@@ -16,5 +18,5 @@
 }
 .portfolio-card-description {
   display: flex;
-  mid-width: 100%;
+  align-items: end;
 }
