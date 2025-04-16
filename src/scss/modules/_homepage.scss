@@ -11,6 +11,10 @@
 .homepage-profile-pic img {
   width: 100%;
 }
+
+.homepage-profile-pic img {
+}
+
 .homepage-portfolio-card {
   display: flex;
   height: 161px;
@@ -20,40 +24,14 @@
   gap: 10px;
   box-shadow: 0px 4px 4px 0px rgba(78, 74, 103, 0.26);
   color: rgba(96, 83, 173, 1);
+  transition: 0.5s;
 }
 
-.homepage-portfolio-card :nth-child(1) {
+.homepage-portfolio-card-1 {
 }
 
-// style carousel
-
-.swiper-container {
-  max-width: 800px;
-  height: 400px;
-  margin: 0 auto;
-}
-.swiper-slide {
-  padding: 100px;
-  text-align: center;
-  background: linear-gradient(90deg, #601887 0%, #f8edeb 100%);
-}
-.swiper-slide h2 {
-  margin-bottom: 25px;
-}
-.swiper-pagination-bullet-active {
-  background: #594c88;
-}
-.carousel-prev,
-.carousel-next  {
-  position: absolute;
-  top: 10px;
-  font-size: 30px;
-  z-index: 10;
-  cursor: pointer;
-}
-  .carousel-prev  {
-  left: 20px;
-}
-  .carousel-next  {
-  left: 80px;
+.homepage-portfolio-card:hover {
+  background: var(--Main-dark-color, #1f1b42);
+  color: white;
+  transform: scale(1.03);
 }

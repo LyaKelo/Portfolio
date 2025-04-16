@@ -40,8 +40,7 @@
   background-color: rgba(255, 255, 255, 0.6);
   border: 2px solid var(--Window-Background, rgba(162, 147, 172, 0.3));
   backdrop-filter: blur(8.800000190734863px);
-  overflow-x: hidden;
-
+  overflow: hidden;
   transition: 0.5s;
 }
 
