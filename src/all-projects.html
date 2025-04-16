@@ -5,6 +5,7 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="col-12"><extends src="header.html"></extends></div>
@@ -37,9 +38,11 @@
             <div class="row">
               <div class="portfolio-card-middle-row">
                 <div class="col-12 col-sm-9">
-                  <div class="portfolio-card-image">
-                    <img src="images/Soap_fanart_final.png" alt="" />
-                  </div>
+                  <span onclick="openNav()">
+                    <div class="portfolio-card-image">
+                      <img src="images/Soap_fanart_final.png" alt="" />
+                    </div>
+                  </span>
                 </div>
                 <div class="col-12 col-sm-3">
                   <div class="portfolio-card-description">
@@ -67,9 +70,11 @@
             <div class="row">
               <div class="portfolio-card-middle-row">
                 <div class="col-12 col-sm-9">
-                  <div class="portfolio-card-image">
-                    <img src="images/Soap_fanart_final.png" alt="" />
-                  </div>
+                  <span onclick="openNav()">
+                    <div class="portfolio-card-image">
+                      <img src="images/Soap_fanart_final.png" alt="" />
+                    </div>
+                  </span>
                 </div>
                 <div class="col-12 col-sm-3">
                   <div class="portfolio-card-description">
@@ -97,9 +102,11 @@
             <div class="row">
               <div class="portfolio-card-middle-row">
                 <div class="col-12 col-sm-9">
-                  <div class="portfolio-card-image">
-                    <img src="images/Soap_fanart_final.png" alt="" />
-                  </div>
+                  <span onclick="openNav()">
+                    <div class="portfolio-card-image">
+                      <img src="images/Soap_fanart_final.png" alt="" />
+                    </div>
+                  </span>
                 </div>
                 <div class="col-12 col-sm-3">
                   <div class="portfolio-card-description">
@@ -118,6 +125,21 @@
         </div>
       </div>
     </div>
+
+    <!-- tests for project selected -->
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        ><img src="icons/arrow back.svg" alt=""
+      /></a>
+      <div class="overlay-content">
+        <extends src="project-selected.html"></extends>
+      </div>
+    </div>
+
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776; open</span
+    >
 
     <extends src="footer.html"></extends>
   </body>
