@@ -14,8 +14,12 @@
   box-shadow: 0px 4px 17.5px 15px rgba(78, 74, 103, 0.26);
   margin: 85px 15% 0px 15%;
   padding-bottom: 200px;
+  transition: 0.5s;
 }
-
+.l-homepage-about-me:hover {
+  transform: scale(1.03);
+  background-image: url(../images/Background\ elements-3.svg);
+}
 .l-homepage-portfolio {
   background: #ffffff;
   box-shadow: 0px 4px 17.5px 15px rgba(78, 74, 103, 0.26);

@@ -1,6 +1,7 @@
 .portfolio-card {
   font-size: 18px;
 }
+
 .portfolio-card-all {
   display: flex;
   flex-direction: column;
@@ -15,6 +16,13 @@
   min-height: 300px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  transition: 0.5s;
+  opacity: 50%;
+}
+
+.portfolio-card-image :hover {
+  transform: scale(0.95);
+  opacity: 100%;
 }
 
 .portfolio-card-middle-row {
